@@ -19,6 +19,7 @@ Dengan menggabungkan tiga strategi yang berbeda kami berharap bot yang kami buat
 - Bot Starter Pack
 - Python
 - IDE (Visual Studio Code)
+
 Game Engine dan Bot Starter Pack dapat diunduh di dari [sini](https://github.com/haziqam/tubes1-IF2211-game-engine/releases/tag/v1.1.0)
 
 Panduan lengkap instalasi dapat dilihat di [sini](https://docs.google.com/document/d/1L92Axb89yIkom0b24D350Z1QAr8rujvHof7-kXRAp7c/edit)
