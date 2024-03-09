@@ -8,6 +8,7 @@ Program logika bot kami mengimplementasikan kombinasi tiga strategi greedy dalam
 - Greedy by Distance, yaitu mengambil diamond yang terdekat dari base.
 - Greedy by Weight, yaitu mengambil diamond dengan poin lebih tinggi (diamond merah).
 - Greedy by Tackle, melakukan tackle jika ada bot lain yang berpapasan dengan bot kita.
+
 Dengan menggabungkan tiga strategi yang berbeda kami berharap bot yang kami buat bisa beradaptasi dengan berbagai situasi di dalam permainan "Diamonds" selama permainan berlangsung.
  
 # Requirement
