@@ -6,16 +6,16 @@ from game.api import Api
 from game.board_handler import BoardHandler
 from game.bot_handler import BotHandler
 from game.logic.random import RandomLogic
-from game.logic.greedy1 import graydee
 from game.util import *
 from game.logic.base import BaseLogic
+from game.logic.GreedyTomerry import TomerryLogic
 
 init()
 BASE_URL = "http://localhost:3000/api"
 DEFAULT_BOARD_ID = 1
 CONTROLLERS = {
     "Random": RandomLogic,
-    "gree": graydee,
+    "Tomerry": TomerryLogic,
 }
 
 ###############################################################################
@@ -184,7 +184,7 @@ while True:
             "Invalid move will be ignored."
             + f" Your move: ({delta_x}, {delta_y}). Your position: ({board_bot.position.x}, {board_bot.position.y})",
         )
-        sleep(0.05)
+        sleep(0.1)
         continue
 
     try:
@@ -205,7 +205,7 @@ while True:
 
     # Don't spam the board more than it allows!
     # sleep(move_delay * time_factor)
-    sleep(0.5)
+    sleep(0.1)
 
 
 ###############################################################################
